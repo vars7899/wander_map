@@ -1,0 +1,8 @@
+{
+    "short_name": "Wander Map",
+    "name": "Wander Map Travel Pin",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

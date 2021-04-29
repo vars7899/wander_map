@@ -1,0 +1,168 @@
+.app {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+.card {
+    z-index: 100;
+    padding: 5px;
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.popup {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    z-index: 100;
+}
+label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.place {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    text-align: center;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.desc {
+    margin: 5px 0 8px 0;
+}
+.star__wrapper {
+    margin-top: 5px;
+    color: #1a2637;
+}
+.info {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form {
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+textarea {
+    margin-top: 5px;
+    max-width: 240px;
+    min-width: 240px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.294);
+    outline: none;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+}
+input {
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.294);
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+.submit-button {
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #1a2637;
+    border-color: #1a2637;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 200ms;
+}
+.submit-button:hover {
+    background-color: #fff;
+    color: #1a2637;
+}
+select {
+    margin-top: 10px;
+}
+
+.btn {
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #ef8a17;
+    border-color: #ef8a17;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:active,
+.btn:hover {
+    background: none;
+    border: 1px #ef8a17 solid;
+    color: #ef8a17;
+    transition: 200ms ease-in-out;
+}
+
+.logout {
+    background-color: #ede580;
+    color: #1a2637;
+    margin-right: 1rem;
+}
+.login {
+    background-color: #ef8a17;
+    margin-right: 1rem;
+}
+.register {
+    background-color: #f2545b;
+    margin-right: 1rem;
+}
+.group,
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.text3 {
+    font-size: 3rem;
+}
+.text4 {
+    font-size: 1.5rem;
+}
+.heading {
+    color: #ef8a17;
+    margin-bottom: 20px;
+}
+.fade {
+    color: rgba(0, 0, 0, 0.555);
+}
+.success {
+    margin-top: 10px;
+    color: #139a43;
+    font-size: 12px;
+}
+.failure {
+    margin-top: 10px;
+    color: #e63946;
+    font-size: 12px;
+}
+.tut {
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: fit-content;
+}
